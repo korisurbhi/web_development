@@ -1,7 +1,10 @@
-h2
-{
-    color: blue;
-}
+/* 1. element selector - h1,p,li,ul */
+/* 2. class selector - "."dot operator */
+/* 3. id selector - "#" */
+/* 4. pair selector - h1, h6 OR h1, .green */
+/* 5. Universal selector - "*" it use to entire doc */
+
+
 /* only "h1" is the element selector */
 h1
 {
@@ -10,7 +13,12 @@ h1
 
 /* ".green" is for class selector */
 /* "." it help to indicates class operator */
-.green
+h6, .green
 {
     color: green;
+}
+
+
+#brown{
+    color: brown;
 }
