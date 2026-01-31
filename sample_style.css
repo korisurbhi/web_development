@@ -1,0 +1,16 @@
+h2
+{
+    color: blue;
+}
+/* only "h1" is the element selector */
+h1
+{
+    color: pink;
+}
+
+/* ".green" is for class selector */
+/* "." it help to indicates class operator */
+.green
+{
+    color: green;
+}
