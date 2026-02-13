@@ -1,9 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Shopping list</title>
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <img src="note.png" alt=""/>
+            <h1>Shopping List</h1>
+        </header>
+
+        <form id="item-form">
+            <div class="form-control">
+                <input type="text" class="form-input" id="item-input" name="item" placeholder="Enter item"/>
+            </div>
+            <div class="form-control">
+                <button type="submit" class="btn">
+                    <i class="fa-solid fa-plus"></i>Add item
+                </button>
+            </div>
+        </form>
+        <div class="filter">
+            <input type="text" class="form-input-filter" id="filter" placeholder="Filter items..."/>
+        </div>
+        <ul id="item-list" class="items">
+            <li>
+                Apples
+                <button class="remove-item btn-link text-red">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </li>
+            <li>
+                orange juice
+                <button class="remove-item btn-link text-red">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </li>
+            <li>
+                oreos
+                <button class="remove-item btn-link text-red">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </li>
+            <li>
+                Milk
+                <button class="remove-item btn-link text-red">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </li>
+        </ul>
+
+        <button id="clear" class="btn-clear">Clear All</button>
+    </div>
+    <script src="style.css"></script>
 </body>
 </html>
